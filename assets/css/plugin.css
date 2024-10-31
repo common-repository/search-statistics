@@ -1,0 +1,28 @@
+table.dataTable thead {text-align:left;}
+
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled  {  background-position: center left;}
+
+table.dataTable tfoot ,table.dataTable tfoot  tr th ,table.dataTable thead th:first-child{
+    text-align: left;
+	padding-left:0;
+}
+
+table.dataTable thead th:first-child,table.dataTable tfoot th:first-child{}
+
+
+table.dataTable tbody tr.odd{background-color:#f9f9f9}
+
+table.dataTable thead .sorting_desc,table.dataTable thead .sorting_asc{background-color:#E6E6E6}
+
+#skomfare2_search_terms_results_page_has_results_length{margin-bottom:30px;margin-top:10px;}
+
+button.button.button-primary.skomfare2_delete_terms , button.button.button-primary.skomfare2_delete_all_terms {margin-top: 40px;}
+ button.button.button-primary.skomfare2_delete_all_terms{background-color:#FF5555;    border: 0;}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current{background-image:none}
+ .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover,
+ .dataTables_wrapper .dataTables_paginate .paginate_button:hover{ 
+	background-color: #65EFFF;
+	background-image: none;
+	border: 1px solid #C5C5C5;
+}
